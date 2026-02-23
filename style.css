@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-box input,
+.form-box select,
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.form-box button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #2980b9;
+}
+
+.search-box {
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background: #3498db;
+    color: white;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.edit-btn {
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+}
